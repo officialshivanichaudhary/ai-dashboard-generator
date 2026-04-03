@@ -10,7 +10,11 @@ An intelligent dashboard generation system built during the **GeeksforGeeks Hack
 📊 Upload CSV files and visualize data dynamically
 ⚡ Interactive charts, insights, and analytics in one place
 
----
+
+![ai-dashboard-interface](https://github.com/user-attachments/assets/51628b74-7218-4fbd-83de-a78baf1873f8)
+![ai-dashboard-interface2](https://github.com/user-attachments/assets/1fac5c53-f2a1-47cf-bd57-a6c5f2af9c44)
+![ai-dashboard-interface3](https://github.com/user-attachments/assets/6ce03d7c-49b2-4a47-af90-37b780e68776)
+
 
 ## 🧠 Features
 
@@ -39,22 +43,6 @@ An intelligent dashboard generation system built during the **GeeksforGeeks Hack
   * Dark theme with gradient cards
   * Clean sidebar navigation
   * Interactive components
-
----
-
-## 🖼️ Screenshots
-
-### 🧑‍💻 Dashboard Interface
-
-![Dashboard](./assets/dashboard1.png)
-
-### 📊 Charts & Analytics
-
-![Charts](./assets/dashboard2.png)
-
-### 📈 AI Insights Section
-
-![Insights](./assets/dashboard3.png)
 
 ---
 
