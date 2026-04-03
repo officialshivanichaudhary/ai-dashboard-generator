@@ -1,36 +1,167 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🤖 AI Dashboard Generator
 
-## Getting Started
+An intelligent dashboard generation system built during the **GeeksforGeeks Hackathon**, designed to transform user prompts and CSV data into visually rich, interactive dashboards.
 
-First, run the development server:
+---
+
+## 🚀 Live Preview
+
+✨ Generate dashboards instantly using AI
+📊 Upload CSV files and visualize data dynamically
+⚡ Interactive charts, insights, and analytics in one place
+
+---
+
+## 🧠 Features
+
+* 🧾 **CSV Upload Support**
+
+  * Upload datasets and generate dashboards automatically
+
+* 🤖 **AI-Powered Dashboard Generation**
+
+  * Enter prompts to generate insights & visualizations
+
+* 📊 **Dynamic Charts**
+
+  * Bar charts for:
+
+    * Revenue by Region
+    * Sales Comparison
+    * Category Analysis
+
+* 📈 **Real-time Insights**
+
+  * Auto-generated AI insights based on data
+
+* 🎨 **Modern UI/UX**
+
+  * Dark theme with gradient cards
+  * Clean sidebar navigation
+  * Interactive components
+
+---
+
+## 🖼️ Screenshots
+
+### 🧑‍💻 Dashboard Interface
+
+![Dashboard](./assets/dashboard1.png)
+
+### 📊 Charts & Analytics
+
+![Charts](./assets/dashboard2.png)
+
+### 📈 AI Insights Section
+
+![Insights](./assets/dashboard3.png)
+
+---
+
+## 🛠️ Tech Stack
+
+* **Frontend:** React / Next.js (TypeScript)
+* **Styling:** CSS / Tailwind / Custom UI
+* **Charts:** Chart.js / Recharts
+* **Data Handling:** CSV parsing
+* **API Layer:** Custom services (api.ts)
+
+---
+
+## 📁 Project Structure
+
+```bash
+ai-dashboard/
+│
+├── components/
+│   ├── Dashboard.tsx
+│   ├── Sidebar.tsx
+│   ├── Navbar.tsx
+│   ├── ChartRenderer.tsx
+│   ├── CsvUploader.tsx
+│   ├── PromptBox.tsx
+│   ├── ChatHistory.tsx
+│   └── StatsCards.tsx
+│
+├── services/
+│   └── api.ts
+│
+├── app/
+│   └── page.tsx
+│
+├── public/
+└── package.json
+```
+
+---
+
+## ⚙️ Setup & Run Locally
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/officialshivanichaudhary/ai-dashboard-generator.git
+```
+
+2. Navigate to project:
+
+```bash
+cd ai-dashboard
+```
+
+3. Install dependencies:
+
+```bash
+npm install
+```
+
+4. Run the project:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+5. Open in browser:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🏆 Hackathon Project
 
-To learn more about Next.js, take a look at the following resources:
+🚀 Built during **GeeksforGeeks Hackathon**
+Focused on solving real-world data visualization challenges using AI.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 👥 Contributors
 
-## Deploy on Vercel
+* 👩‍💻 **Shivani Chaudhary**
+* 👨‍💻 **Daksh Verma**
+* 👩‍💻 **Nishtha Dobhaal**
+* 👨‍💻 **Rishabh Rana**
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🌟 Future Improvements
+
+* 🔗 Backend AI integration (OpenAI / ML models)
+* 📊 More chart types (Pie, Line, Heatmaps)
+* 📥 Export dashboards as PDF
+* 🌐 Deploy on Vercel
+
+---
+
+## 💡 Vision
+
+To simplify data analysis by enabling anyone to generate powerful dashboards using natural language and simple data inputs.
+
+---
+
+## ⭐ Support
+
+If you like this project, give it a ⭐ on GitHub and share it!
+
+---
